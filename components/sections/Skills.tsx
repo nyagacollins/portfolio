@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { useSpring, animated } from '@react-spring/web'
 import { useState, useEffect } from 'react'
 
 const skills = [
@@ -28,22 +27,6 @@ const SkillBar = ({ skill, index }: { skill: typeof skills[0], index: number }) 
     threshold: 0.1,
   })
 
-  const [animatedLevel, setAnimatedLevel] = useState(0)
-
-  const springProps = useSpring({
-    width: inView ? `${animatedLevel}%` : '0%',
-    config: { tension: 100, friction: 10 },
-  })
-
-  useEffect(() => {
-    if (inView) {
-      const timer = setTimeout(() => {
-        setAnimatedLevel(skill.level)
-      }, index * 100)
-      return () => clearTimeout(timer)
-    }
-  }, [inView, skill.level, index])
-
   return (
     <motion.div
       ref={ref}
@@ -57,12 +40,14 @@ const SkillBar = ({ skill, index }: { skill: typeof skills[0], index: number }) 
         <span className="text-sm text-gray-600 dark:text-gray-400">{skill.level}%</span>
       </div>
       <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3 overflow-hidden">
-        <animated.div
-          style={springProps}
+        <motion.div
+          initial={{ width: '0%' }}
+          animate={inView ? { width: `${skill.level}%` } : { width: '0%' }}
+          transition={{ duration: 1, delay: index * 0.1, ease: 'easeOut' }}
           className={`h-full ${skill.color} rounded-full relative`}
         >
           <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
-        </animated.div>
+        </motion.div>
       </div>
     </motion.div>
   )
