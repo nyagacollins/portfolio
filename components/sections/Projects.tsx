@@ -159,7 +159,7 @@ const Projects = () => {
             className="text-center mt-12"
           >
             <motion.a
-              href="https://github.com/johndoe"
+              href="https://github.com/nyagacollins"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
