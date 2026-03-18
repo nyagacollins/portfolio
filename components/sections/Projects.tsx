@@ -13,8 +13,8 @@ const projects = [
     description: 'A full-stack Farm-monitaring-system solution built with Angular for frontend and spring-boot for backend. Features include user authentication, payment processing, and admin dashboard.',
     image: 'https://images.unsplash.com/photo-1664830577330-b95f564110ca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1476',
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/johndoe/ecommerce',
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
   },
   {
     id: 2,
@@ -22,8 +22,8 @@ const projects = [
     description: 'A full-stack e-commerce solution built with Next.js, Stripe, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
     image: 'https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/johndoe/ecommerce',
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
   },
   {
     id: 3,
@@ -31,8 +31,8 @@ const projects = [
     description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
     technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/johndoe/taskmanager',
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
   },
   {
     id: 4,
@@ -40,8 +40,8 @@ const projects = [
     description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
     image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/johndoe/taskmanager',
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1657653464178-b4dd0879df5c?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     liveUrl: '',
-    githubUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
   },
     {
     id: 6,
@@ -58,8 +58,17 @@ const projects = [
     description: 'A full-stack crop health monitoring system build with python that helps farmer to identify crop diseases and pests using image recognitions,',
     image: 'https://images.unsplash.com/photo-1534940519139-f860fb3c6e38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3JvcHxlbnwwfHwwfHx8MA%3D%3D',
     technologies: ['python'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/johndoe/ecommerce',
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
+    },
+    {
+    id: 7,
+    title: 'HABIT-TRACKER',
+    description: 'A full-stack habit-tracker where user is able to track his/her habits on mobile phone,',
+    image: 'https://images.unsplash.com/photo-1610641564155-8ea9845579dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGFiaXQtdHJhY2tlcnxlbnwwfHwwfHx8MA%3D%3D',
+    technologies: ['flutter'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
     },
   
   
