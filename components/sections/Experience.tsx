@@ -37,7 +37,7 @@ const experiences = [
   {
     id: 3,
     title: 'Junior Developer Intern',
-    company: 'InnovateTech',
+    company: 'E&M TECHNOLOGIES',
     location: 'TATU CITY,KENYA',
     period: '12/09/2025-14/11/2025',
     description: [

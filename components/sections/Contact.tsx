@@ -104,7 +104,7 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/only1collo',
+      href: 'https://github.com/nyagacollins',
       color: 'hover:text-gray-600'
     },
     {

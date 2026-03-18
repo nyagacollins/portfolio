@@ -52,6 +52,16 @@ const projects = [
     liveUrl: '',
     githubUrl: '',
   },
+    {
+    id: 6,
+    title: 'crop health system',
+    description: 'A full-stack crop health monitoring system build with python that helps farmer to identify crop diseases and pests using image recognitions,',
+    image: 'https://images.unsplash.com/photo-1534940519139-f860fb3c6e38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3JvcHxlbnwwfHwwfHx8MA%3D%3D',
+    technologies: ['python'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/johndoe/ecommerce',
+    },
+  
   
 ]
 
@@ -159,7 +169,7 @@ const Projects = () => {
             className="text-center mt-12"
           >
             <motion.a
-              href="https://github.com/nyagacollins"
+              href="https://github.com/nyagacollins "
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
