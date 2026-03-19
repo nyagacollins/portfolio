@@ -70,7 +70,15 @@ const projects = [
     liveUrl: '',
     githubUrl: 'https://github.com/nyagacollins',
     },
-  
+  {
+    id: 8,
+    title: 'Anniversary-website',
+    description: 'A full-stack anniversary website where users can create and share their anniversary stories,',
+    image: 'https://images.unsplash.com/photo-1627935817583-a8d4531ccc62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5uaXZlcnNhcnl8ZW58MHx8MHx8fDA%3D',
+    technologies: ['next.js'],
+    liveUrl: 'https://carlos-zeta-livid.vercel.app',
+    githubUrl: 'https://github.com/nyagacollins',
+    },
   
 ]
 
