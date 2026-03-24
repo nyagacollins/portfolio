@@ -79,6 +79,16 @@ const projects = [
     liveUrl: 'https://happiness-anniversary.vercel.app',
     githubUrl: 'https://github.com/nyagacollins',
     },
+    {
+    id: 9,
+    title: 'Less-paperwork',
+    description: 'A less paper-based solution for managing and tracking paperwork,',
+    image: 'https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFwZXJzfGVufDB8fDB8fHww',
+    technologies: ['flutter'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/nyagacollins',
+    },
+
   
 ]
 
